@@ -52,6 +52,7 @@ body {
     border: 1px solid black;
     transform: translateY(-5px);
     cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .menu1 ul li a:hover span {
@@ -128,6 +129,7 @@ body {
     border: 1px solid black;
     transform: translateY(-5px);
     cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .menu2 ul li a:hover span {
@@ -204,6 +206,7 @@ body {
     border: 1px solid black;
     transform: translateY(-5px);
     cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .menu3 ul li a:hover span {
@@ -280,6 +283,7 @@ body {
     border: 1px solid black;
     transform: translateY(-5px);
     cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .menu4 ul li a:hover span {
@@ -371,6 +375,7 @@ body {
     color: black;
     background: white;
     transition: 0.5s;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .menu5 ul li a:hover::before {
@@ -409,6 +414,7 @@ body {
     position: relative;
     line-height: 40px;
     margin: 0px 20px;
+    transition: 0.5s;
     text-align: center;
     box-sizing: border-box; 
     background-repeat: no-repeat;
@@ -428,6 +434,8 @@ body {
 }
                         
 .menu6 ul li a:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    transform: translateY(-5px);
     background-repeat: no-repeat;
     background-image:   linear-gradient(to right, white 100%, white 100%),
                         linear-gradient(to bottom, white 100%, white 100%),
