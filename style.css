@@ -36,6 +36,7 @@ body {
     text-align: center;
     transition: 0.5s;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .menu1 ul li a span {
@@ -114,6 +115,7 @@ body {
     text-align: center;
     transition: 0.5s;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .menu2 ul li a span {
@@ -190,6 +192,7 @@ body {
     text-align: center;
     transition: 0.5s;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .menu3 ul li a span {
@@ -268,6 +271,7 @@ body {
     text-align: center;
     transition: 0.5s;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .menu4 ul li a span {
