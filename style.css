@@ -1,0 +1,452 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: linear-gradient(to bottom right, rgba(123, 23, 42, 1), rgba(170, 142, 24, 1))
+}
+
+.menu1 ul {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu1 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.menu1 ul li a span {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: white;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.menu1 ul li a:hover {
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.menu1 ul li a:hover span {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.menu1 ul li a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transition-delay: 0s;
+}
+
+.menu1 ul li a span:nth-child(2) {
+    top: 25%;
+    left: 0;
+    transition-delay: 0.15s;
+}
+
+.menu1 ul li a span:nth-child(3) {
+    top: 50%;
+    left: 0;
+    transition-delay: 0.3s;
+}
+
+.menu1 ul li a span:nth-child(4) {
+    top: 75%;
+    left: 0;
+    transition-delay: 0.45s;
+}
+
+.menu2 ul {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu2 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.menu2 ul li a span {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: white;
+    z-index: -1;
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+
+.menu2 ul li a:hover {
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.menu2 ul li a:hover span {
+    transform: scaleY(1);
+}
+
+.menu2 ul li a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transition-delay: 0s;
+}
+
+.menu2 ul li a span:nth-child(2) {
+    top: 25%;
+    left: 0;
+    transition-delay: 0.15s;
+}
+
+.menu2 ul li a span:nth-child(3) {
+    top: 50%;
+    left: 0;
+    transition-delay: 0.3s;
+}
+
+.menu2 ul li a span:nth-child(4) {
+    top: 75%;
+    left: 0;
+    transition-delay: 0.45s;
+}
+
+.menu3 ul {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu3 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu3 ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.menu3 ul li a span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: white;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.menu3 ul li a:hover {
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.menu3 ul li a:hover span {
+    transform: scaleX(1);
+    transform-origin: bottom;
+}
+
+.menu3 ul li a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transition-delay: 0s;
+}
+
+.menu3 ul li a span:nth-child(2) {
+    top: 0;
+    left: 25%;
+    transition-delay: 0.15s;
+}
+
+.menu3 ul li a span:nth-child(3) {
+    top: 0;
+    left: 50%;
+    transition-delay: 0.3s;
+}
+
+.menu3 ul li a span:nth-child(4) {
+    top: 0;
+    left: 75%;
+    transition-delay: 0.45s;
+}
+
+.menu4 ul {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu4 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu4 ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.menu4 ul li a span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: white;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.menu4 ul li a:hover {
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.menu4 ul li a:hover span {
+    transform: scaleX(1);
+}
+
+.menu4 ul li a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transition-delay: 0s;
+}
+
+.menu4 ul li a span:nth-child(2) {
+    top: 0;
+    left: 25%;
+    transition-delay: 0.15s;
+}
+
+.menu4 ul li a span:nth-child(3) {
+    top: 0;
+    left: 50%;
+    transition-delay: 0.3s;
+}
+
+.menu4 ul li a span:nth-child(4) {
+    top: 0;
+    left: 75%;
+    transition-delay: 0.45s;
+}
+
+.menu5 ul {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu5 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu5 ul li a {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.menu5 ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.menu5 ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    transition: 0.5s;
+    opacity: 0;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.menu5 ul li a:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: black;
+    background: white;
+    transition: 0.5s;
+}
+
+.menu5 ul li a:hover::before {
+    transform: translate(-5px, -5px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.menu5 ul li a:hover::after {
+    transform: translate(5px, 5px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.menu6 ul {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu6 ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu6 ul li a {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: block;
+    position: relative;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    box-sizing: border-box;               
+}
+                        
+.menu6 ul li a:hover {
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, white 100%, white 100%),
+                        linear-gradient(to bottom, white 100%, white 100%),
+                        linear-gradient(to right, white 100%, white 100%),
+                        linear-gradient(to bottom, white 100%, white 100%);
+    background-size:    100% 1px,
+                        1px 100%,
+                        100% 1px,
+                        1px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;  
+    animation: bg .5s ease-in-out forwards; 
+}
+
+@keyframes bg {
+    0% {
+        background-size:    0 1px,
+                            1px 0,
+                            0 1px,
+                            1px 0;
+    }
+    50% {
+        background-size:    100% 1px,
+                            1px 0,
+                            100% 1px,
+                            1px 0;
+    }
+    100% {
+        background-size:    100% 1px,
+                            1px 100%,
+                            100% 1px,
+                            1px 100%;
+    }
+}
