@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    overflow: hidden;
     background: linear-gradient(to bottom right, rgba(123, 23, 42, 1), rgba(170, 142, 24, 1))
 }
 
