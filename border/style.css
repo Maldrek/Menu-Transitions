@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, rgba(23, 184, 113, 1), rgba(14, 150, 213, 1));
+    height: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.buttonHovers {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.buttonHovers:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.buttonHovers:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+a:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.container .radius {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to top right, rgba(200, 100, 10, 1), rgba(200, 14, 240,1));
+    border: 2px solid rgba(140, 14, 14);
+    margin: 50px;
+    transition: 0.5s;
+    animation: spin 5s linear infinite;
+    animation-play-state: running;
+}
+
+.container .radius:nth-child(1) {
+    border-radius: 0 50% 50% 50%;
+}
+
+.container .radius:nth-child(2) {
+    border-radius: 50% 0% 50% 50%;
+}
+
+.container .radius:nth-child(3) {
+    border-radius: 50% 50% 0 50%;
+}
+
+.container .radius:nth-child(4) {
+    border-radius: 50% 50% 50% 0;
+}
+
+.container .radius:nth-child(5) {
+    border-radius: 0 50% 0 50%;
+}
+
+.container .radius:nth-child(6) {
+    border-radius: 50% 0% 50% 0;
+}
+
+.container .radius:nth-child(7) {
+    border-radius: 50% 50% 0 0;
+}
+
+.container .radius:nth-child(8) {
+    border-radius: 0 0 50% 50%;
+}
+
+.container .radius:nth-child(5) {
+    border-radius: 0 50% 0 50%;
+}
+
+.container .radius:nth-child(6) {
+    border-radius: 50% 0% 50% 0;
+}
+
+.container .radius:nth-child(7) {
+    border-radius: 50% 50% 0 0;
+}
+
+.container .radius:nth-child(8) {
+    border-radius: 0 0 50% 50%;
+}
+
+.container .radius:nth-child(9) {
+    border-radius: 0 50% 50% 0;
+}
+
+.container .radius:nth-child(10) {
+    border-radius: 50% 0 0 50%;
+}
+
+.container .radius:nth-child(11) {
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+
+.container .radius:nth-child(12) {
+    border-radius: 25% 50% 25% 50%;
+}
+
+.container .radius:nth-child(13) {
+    border-radius: 0 0 0 50%;
+}
+
+.container .radius:nth-child(14) {
+    border-radius: 50% 0 0 0;
+}
+
+.container .radius:nth-child(15) {
+    border-radius: 0 0 50% 0;
+}
+
+.container .radius:nth-child(16) {
+    border-radius: 0 50% 0 0;
+}
+
+.container .radius:nth-child(17) {
+    border-radius: 20px;
+}
+
+.container .radius:nth-child(18) {
+    border-radius: 50%;
+}
+
+.container .radius:nth-child(19) {
+    border-radius: 0;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    } 
+    100% {
+        transform: rotate(360deg);
+    }
+}
