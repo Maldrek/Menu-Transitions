@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: linear-gradient(to bottom right, rgba(23, 184, 113, 1), rgba(14, 150, 213, 1));
     height: auto;
-    overflow: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
