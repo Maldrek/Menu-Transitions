@@ -128,30 +128,34 @@ a:focus {
 }
 
 .container .radius:nth-child(13) {
-    border-radius: 0 0 0 50%;
+    border-radius: 50% 25% 50% 25%;
 }
 
 .container .radius:nth-child(14) {
-    border-radius: 50% 0 0 0;
+    border-radius: 0 0 0 50%;
 }
 
 .container .radius:nth-child(15) {
-    border-radius: 0 0 50% 0;
+    border-radius: 50% 0 0 0;
 }
 
 .container .radius:nth-child(16) {
-    border-radius: 0 50% 0 0;
+    border-radius: 0 0 50% 0;
 }
 
 .container .radius:nth-child(17) {
-    border-radius: 20px;
+    border-radius: 0 50% 0 0;
 }
 
 .container .radius:nth-child(18) {
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .container .radius:nth-child(19) {
+    border-radius: 50%;
+}
+
+.container .radius:nth-child(20) {
     border-radius: 0;
 }
 
