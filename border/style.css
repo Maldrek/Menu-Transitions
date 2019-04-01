@@ -186,3 +186,18 @@ a:focus {
 .container .radius:nth-child(20) {
     border-radius: 0;
 }
+
+@media screen and (max-width: 500px) {
+    .buttonHovers {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container {
+        flex-flow: column wrap;
+    }
+
+    .container .radius {
+        margin: 50px auto;
+    }
+}
