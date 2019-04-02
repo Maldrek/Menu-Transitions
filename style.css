@@ -529,3 +529,101 @@ a:focus {
                             1px 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .menu1 ul {
+        top: 20%;
+    }
+
+    .menu2 ul {
+        top: 30%;
+    }
+
+    .menu3 ul {
+        top: 40%;
+    }
+
+    .menu4 ul {
+        top: 50%;
+    }
+
+    .menu5 ul {
+        top: 60%;
+    }
+
+    .menu6 ul {
+        top: 70%;
+    }
+
+    .menu1 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu2 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu3 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu4 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu5 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu6 ul li a {
+        margin: 0 -1px;
+        border: 0;
+        width: 75px;
+    }
+
+    .menu1 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    .menu2 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    .menu3 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    .menu4 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    .menu5 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    .menu6 ul li a:hover {
+        border: none;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+}
