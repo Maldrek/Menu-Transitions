@@ -537,6 +537,14 @@ a:focus {
         left: 3%;
         transform: translate(-50%, -50%) rotate(90deg);
     }
+
+    .buttonHovers:hover,
+    .buttonHovers:active {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
 }
 
 @media screen and (max-width: 500px) {
