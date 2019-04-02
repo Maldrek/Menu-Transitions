@@ -530,7 +530,25 @@ a:focus {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .buttonHovers {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+}
+
 @media screen and (max-width: 500px) {
+
+    .buttonHovers {
+        position: absolute;
+        bottom: 5%;
+        top: 83%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
     .menu1 ul {
         top: 20%;
     }
